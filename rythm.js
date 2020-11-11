@@ -4,7 +4,7 @@ function Rythm1() {
 
   
   this.show = function() {
-    fill(255);
+    fill(204,0,0);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
 }
@@ -15,7 +15,7 @@ function Rythm2() {
 
   
   this.show = function() {
-    fill(255);
+    fill(61,145,64);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
 }
@@ -26,7 +26,7 @@ function Rythm3() {
 
   
   this.show = function() {
-    fill(255);
+    fill(0,72,186);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
 }
@@ -37,7 +37,7 @@ function Rythm4() {
 
   
   this.show = function() {
-    fill(255);
+    fill(191,0,255);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
 }

@@ -4,7 +4,7 @@ function Beat1() {
   this.r = 50;
   
   this.show = function() {
-    fill(255);
+    fill(204,0,0);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
   
@@ -19,7 +19,7 @@ function Beat2() {
   this.r = 50;
   
   this.show = function() {
-    fill(255);
+    fill(61,145,64);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
   
@@ -34,7 +34,7 @@ function Beat3() {
   this.r = 50;
   
   this.show = function() {
-    fill(255);
+    fill(0,72,186);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
   
@@ -49,7 +49,7 @@ function Beat4() {
   this.r = 50;
   
   this.show = function() {
-    fill(255);
+    fill(191,0,255);
     ellipse(this.pos.x,this.pos.y,this.r,this.r);
   }
   

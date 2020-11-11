@@ -26,6 +26,7 @@ function draw() {
   text("Score: " + score,220,30);
   text("Time: " + time,330,30);
   textSize(7);
+  fill(255);
   text("Press the beats in rythm, but don't miss a beat, ot you'll lose!",20,30);
   //rythms
   rythm1.show();

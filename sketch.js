@@ -25,6 +25,8 @@ function draw() {
   fill(255);
   text("Score: " + score,220,30);
   text("Time: " + time,330,30);
+  textSize(7);
+  text("Press the beats in rythm, but don't miss a beat, ot you'll lose!",20,30);
   //rythms
   rythm1.show();
   rythm2.show();
@@ -45,6 +47,7 @@ function draw() {
   }
   play();
   if(lose == true) {
+    textSize(20);
     text("You Lose, press R to restart.", 140,250);
     beat1.vel = createVector(0,0);
     beat2.vel = createVector(0,0);
